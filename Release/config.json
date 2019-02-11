@@ -1,0 +1,45 @@
+
+[
+    {
+        "Name" : "for display1",
+        "Host" : "you server host",
+        "Port" : 22,
+        "User" : "root",
+        "Passwd" : "you server passwd",
+        "Functions" : [
+            {
+                "Name" : "for display",
+                "Remarks" : "for tooltip",
+                "Commands" : [
+                    "pwd",
+                    "ls"
+                ]
+            }
+        ]
+    },
+    {
+        "Name" : "for display2",
+        "Host" : "you server host",
+        "Port" : 22,
+        "User" : "root",
+        "Passwd" : "you server passwd",
+        "Functions" : [
+            {
+                "Name" : "for display1",
+                "Remarks" : "for tooltip",
+                "Commands" : [
+                    "pwd",
+                    "ls"
+                ]
+            },
+            {
+                "Name" : "for display2",
+                "Remarks" : "for tooltip",
+                "Commands" : [
+                    "pwd",
+                    "ls"
+                ]
+            }
+        ]
+    }
+]
